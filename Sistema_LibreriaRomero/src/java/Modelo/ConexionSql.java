@@ -15,9 +15,9 @@ import java.sql.SQLException;
  */
 public class ConexionSql {
     Connection cn;
-    String url = "jdbc:sqlserver://DESKTOP-ROLEGON\\\\SQLEXPRESS:1037;databaseName=LibreriaP4";
+    String url = "jdbc:sqlserver://RAZOR\\RAZOR:1433;databaseName=LibreriaP4";
     
-    String user = "balmoreProg";
+    String user = "sysadmin6";
     String password = "123";
     
     public Connection getConexionSql(){//Sql-Server
